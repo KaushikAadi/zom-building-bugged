@@ -17,7 +17,6 @@ rate_of_fire = 0.2
 bullet_dmg = 1000
 bullet_spread = 2
 mag_size = 16
-shells = 2
 reload_audio = ExtResource("3_4dcfv")
 gunshot_audio = ExtResource("2_4dcfv")
 metadata/_custom_type_script = "uid://b4k2mqk52y2hf"

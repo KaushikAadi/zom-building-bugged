@@ -46,7 +46,7 @@ func _physics_process(_delta: float) -> void:
 		velocity.y += gravity
 	move_and_slide()
 	
-	if player_in_range and attack_cooldown.time_left==0:
+	if player_in_range and attack_cooldown.is_stopped():
 		attack()
 
 func take_damage(damage):
